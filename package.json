@@ -1,0 +1,30 @@
+{
+  "name": "danibotv1",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "**Danibot** is a lightweight, rule-based chatbot designed to assist developers and DevOps engineers by providing quick guidance, example commands, and best practices for Linux, SSH, Git/GitHub, and AWS. Originally built as a single HTML/JS file for easy browser use, it has now evolved into a small modular project with separate files for HTML, CSS, and JavaScript to improve maintainability and scalability. Danibot runs entirely in the browser without any backend, making it fast, secure, and easy to deploy anywhere.",
+  "main": "scripts.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danisverige/danibotv1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danisverige/danibotv1/issues"
+  },
+  "homepage": "https://github.com/Danisverige/danibotv1#readme",
+  "devDependencies": {
+    "eslint": "^9.34.0",
+    "jest": "^30.1.3",
+    "snyk": "^1.1299.0"
+  },
+  "dependencies": {
+    "@eslint/js": "^9.34.0"
+  }
+}
